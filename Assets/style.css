@@ -11,12 +11,16 @@ h2 {
     margin: 8px;
 }
 
-.body {
-    background-color: lightgray;
+img {
+    float:left; 
+    width: 40%; 
+    height:30%; 
+    margin:12px; 
+    margin-top: 5%;
 }
 
-img {
-    flex-direction: row;
+.body {
+    background-color: lightgray;
 }
 
 @media all and (max-width: 980px) {
