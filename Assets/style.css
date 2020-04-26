@@ -16,7 +16,7 @@ h2 {
 }
 
 img {
-    float: left;
+    flex-direction: row;
 }
 
 @media all and (max-width: 980px) {
