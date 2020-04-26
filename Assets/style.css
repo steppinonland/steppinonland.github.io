@@ -16,7 +16,7 @@ h2 {
 }
 
 img {
-    align-items: flex-start;
+    float: left;
 }
 
 @media all and (max-width: 980px) {
