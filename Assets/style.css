@@ -15,6 +15,13 @@ h2 {
     background-color: lightgray;
 }
 
+img {
+    align-items: flex-start;
+    justify-content:flex-start;
+    max-height: 50%;
+    max-width: 25%;
+}
+
 @media all and (max-width: 980px) {
     .container {
         flex-wrap: wrap;
