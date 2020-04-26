@@ -1,5 +1,10 @@
 .container > p {
+    display: flex;
     flex-wrap: wrap;
+}
+
+.container > div {
+    flex: 1 1 150px;
 }
 
 h2 {
@@ -14,7 +19,6 @@ h2 {
 img {
     width: 5%; 
     height:3%; 
-
 }
 
 .body {
