@@ -1,28 +1,36 @@
-.container {
+.container1 {
     display: flex;
-    background-color: light steelblue;
+    background-color: lightsteelblue;
+    align-items: row;
+}
+
+.container2 {
+    display: flex;
+    align-items: row;
+    margin-top: 5%;
 }
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.container, div {
+.firstrow {
     display: flex;
-    justify-content: space-between;
+    margin: 8px;
+    max-height: 300px;
+}
+
+.secondrow {
+    display: flex;
     margin: 8px;
     max-height: 100px;
 }
-.col-sm-12.col-lg-6.img {
-    max-height: 150px;
-    max-width: 200px;
-    object-fit: cover;
-    width: 100%;
-}
 
-.homempageimg {
-    width: 240px;
-    height: 200px;
+.homepageimage {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 h2 {
@@ -34,28 +42,50 @@ h4 {
     margin-left: 25px;
 }
 @media all and (max-width: 980px) {
-    .container {
+    .firstrow {
         display: flex;
-        justify-content: space-between;
+        align-items: row;
+        margin: 8px;
     }
-    img {
-        float:left;
-        object-fit: contain; 
-    }
+
 }
 @media all and (max-width: 768px) {
-    .container, div {
+    .container1 .container2 {
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
-        margin:12px; 
         margin-top: 5%;
+    }
+    .homepageimage{
+        object-fit: contain;
+    }
+    .firstrow {
+        display: flex;
+        margin: 8px;
+        align-items: column;
+        flex-direction: column;
+    }
+    .secondrow {
+        display: flex;
+        margin: 8px;
+        flex-direction: column;
+        align-items: column;
+
     }
 }
 @media all and (max-width: 640px) {
-    .container, div {
+    .container1 .container2 {
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
+        align-items: column;
+    }
+    .homepageimage{
+        object-fit: contain;
+    }
+
+    .secondrow {
+        display: flex;
+        margin: 8px;
+        align-items: column;
+        flex-direction: column;
     }
 }
