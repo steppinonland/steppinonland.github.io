@@ -36,6 +36,10 @@ img {
     background-color: lightgray;
 }
 
+ul > li {
+    justify-content: space-around;
+}
+
 @media all and (max-width: 980px) {
     .container {
         flex-wrap: wrap;
