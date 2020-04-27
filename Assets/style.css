@@ -5,13 +5,15 @@
 
 .container {
     display: grid;
-    flex-wrap: wrap;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 50px 50px;
+    grid-gap: 3px;
 }
 
-.container > div > img {
-    max-width: 400px;
-    max-height: 300px;
-    object-fit: cover;
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container > div {
