@@ -36,7 +36,7 @@ img {
     background-color: lightgray;
 }
 
-.navbar-nav > ul > li {
+.nav > ul > li {
     justify-content: space-around;
 }
 
