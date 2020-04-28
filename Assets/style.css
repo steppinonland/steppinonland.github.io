@@ -1,11 +1,12 @@
 .container1 {
     display: flex;
     background-color: lightsteelblue;
-    align-items: row;
+    align-items: center;
+    padding: 10%;
 }
 .container2 {
-    display: flex;
-    align-items: row;
+    display: flex-end;
+    align-items: ;
     margin-top: 5%;
 }
 .firstrow {
@@ -13,20 +14,17 @@
     margin: 8px;
     max-height: 300px;
 }
-
 .secondrow {
     display: flex;
     margin: 8px;
     max-height: 100px;
 }
-
 .homepageimage {
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     height: 100%;
 }
-
 h2 {
     margin-top: 25px;
     margin-left: 25px;
@@ -36,29 +34,47 @@ h4 {
     margin-left: 25px;
 }
 @media all and (max-width: 980px) {
-    .firstrow {
+    .container1 {
         display: flex;
-        align-items: row;
-        margin: 8px;
-    }
-    .homepageimage{
-        object-fit: contain;
-    }
-
-}
-@media all and (max-width: 768px) {
-    .container1 .container2 {
-        display: flex;
-        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: column;
         margin-top: 5%;
     }
-    .homepageimage{
-        object-fit: contain;
+    .container2 {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-top: %;
     }
     .firstrow {
         display: flex;
         margin: 8px;
-        align-items: column;
+        align-items: center;
+        flex-direction: column;
+    }
+    .secondrow {
+        display: flex;
+        margin: 8px;
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 768px) {
+    .container1 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .container2 {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-top: %;
+    }
+    .firstrow {
+        display: flex;
+        margin: 8px;
+        align-items: center;
         flex-direction: column;
     }
     .secondrow {
@@ -66,23 +82,19 @@ h4 {
         margin: 8px;
         flex-direction: column;
         align-items: column;
-
     }
 }
 @media all and (max-width: 640px) {
     .container1 .container2 {
         display: flex;
-        flex-wrap: wrap;
-        align-items: column;
+        align-items: center;
     }
     .homepageimage{
         object-fit: contain;
     }
-
     .secondrow {
-        display: flex;
         margin: 8px;
-        align-items: column;
+        align-items: flex-end;
         flex-direction: column;
     }
 }
