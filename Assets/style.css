@@ -3,16 +3,10 @@
     background-color: lightsteelblue;
     align-items: row;
 }
-
 .container2 {
     display: flex;
     align-items: row;
     margin-top: 5%;
-}
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 .firstrow {
     display: flex;
@@ -46,6 +40,9 @@ h4 {
         display: flex;
         align-items: row;
         margin: 8px;
+    }
+    .homepageimage{
+        object-fit: contain;
     }
 
 }
