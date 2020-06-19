@@ -4,6 +4,7 @@
 body {
   color: #000000;
   font-family: 'Staatliches', cursive;
+  background: linear-gradient(90deg, rgba(234,255,255,1) 0%, rgba(223,220,236,1) 50%, rgba(245,237,241,1) 100%);
 }
 
 .navbar-default {
@@ -11,8 +12,21 @@ body {
   border: none;
 }
 
+.card{
+    margin: 1%;
+    background: #ddf4f481;
+}
+.card-img, .card-img-top {
+    padding: 4%;
+}
+
 .navbar-default ul li a {
   cursor: pointer;
+}
+.head-photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 6%;
 }
 
 .section__canvas {
@@ -76,6 +90,11 @@ h3.head-bar i {
 
 .progress-bar {
   background-color: #696969;
+}
+.progress{
+    font-family: 'Lato', sans-serif;
+    height: 2em;
+    margin: 3%;
 }
 
 hr.hr-line1 {
@@ -164,13 +183,11 @@ article.work {
   background-color: #696969;
   border: 1px solid #efefef;
 }
-img{
-    max-width: 60%;
-}
 
 .contact {
   background-color: #696969;
 }
 p{
     font-family: 'Lato', sans-serif;
+    padding: 3px;
 }
