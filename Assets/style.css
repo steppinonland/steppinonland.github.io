@@ -178,7 +178,8 @@ article.work {
 }
 
 .contact {
-  background-color: #696969;
+  background: linear-gradient(90deg, rgba(7,173,191,1) 0%, rgba(60,143,240,1) 100%);
+  color: snow;
 }
 p{
     font-family: 'Lato', sans-serif;
@@ -217,4 +218,7 @@ img {vertical-align: middle;}
 }
 .text {
   font-size: xx-small;
+}
+.contact-header {
+  color: snow;
 }
