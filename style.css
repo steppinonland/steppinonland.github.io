@@ -1,7 +1,0 @@
-.containter {
-    background-color: antiquewhite;
-}
-
-.container > p {
-    flex-wrap: wrap;
-}
