@@ -77,7 +77,6 @@ h3.head-bar {
   font-weight: 700;
   color: #000000;
   font-size: 24px;
-  padding: 5%;
 }
 
 .progress-bar {
@@ -221,4 +220,5 @@ img {vertical-align: middle;}
 }
 .contact-header {
   color: snow;
+  padding: 5%;
 }
