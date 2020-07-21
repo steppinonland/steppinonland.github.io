@@ -40,11 +40,13 @@ body .jumbotron {
   font-weight: 900;
   font-size: 56px;
   padding: 7%;
+  font-family: 'Staatliches', cursive;
 }
 
 .welcome-content h2 {
   font-weight: 700;
   font-size: 26px;
+  font-family: 'Staatliches', cursive;
 }
 
 .welcome-content p {
@@ -133,6 +135,7 @@ article.education {
 .education h3 {
   font-weight: 300;
   font-size: 14px;
+  font-family: 'Staatliches', cursive;
 }
 
 article.work {
@@ -143,6 +146,7 @@ article.work {
 .work h1 {
   font-weight: 700;
   font-size: 20px;
+  font-family: 'Staatliches', cursive;
   
 }
 
@@ -155,11 +159,13 @@ article.work {
 .work h2 {
   font-weight: 400;
   font-size: 18px;
+  font-family: 'Staatliches', cursive;
 }
 
 .work h3 {
   font-weight: 300;
   font-size: 14px;
+  font-family: 'Staatliches', cursive;
 }
 
 .work p {
@@ -223,4 +229,5 @@ img {vertical-align: middle;}
 .contact-header {
   color: snow;
   padding: 5%;
+  font-family: 'Staatliches', cursive;
 }
