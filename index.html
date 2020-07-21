@@ -8,37 +8,47 @@
     <link rel="stylesheet" href="assets/style.css">
     <meta charset="UTF-8">
     
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stephanie Landgraf</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a data-scroll-nav="0">Welcome</a></li>
-                    <li><a data-scroll-nav="1">Profile</a></li>
-                    <li><a data-scroll-nav="2">Resume</a></li>
-                    <li><a data-scroll-nav="3">Portfolio</a></li>
-                    <li><a data-scroll-nav="4">Contact</a></li>
-                  </ul>
-                </div>
-              </div>
-        </div>
+  <div class="slideshow-container">
+    <br>        
+    <div class="mySlides fade">
+      <img class="head-photo" src="assets/meandrocks.JPG">
+      <div class="text">I'm Stephanie!</div>
+    </div>
+    <div class="mySlides fade">
+      <img class="head-photo" src="assets/political pic.jpg">
+      <div class="text">Advocating for environmental rights with my university on Capitol Hill.</div>
+  
+    </div>
+    <div class="mySlides fade">
+      <img class="head-photo" src="assets/polpic2.JPG">
+      <div class="text">Women's March 2020</div>
+    </div>
+    <div class="mySlides fade">
+      <img class="head-photo" src="assets/polpic3.JPG">
+      <div class="text">Women's March 2020 with Travis County District Attorney José Garza and volunteers.</div>    </div>
+  </div>
+    <div style="text-align:center">
+      <a href="photos.html" class="btn-outline-secondary"><button type="button" class="btn btn-outline-dark">
+        <i class="far fa-images">
+        </i>  View More Photos</button></a>
+    </div>
       <section class="welcome" data-scroll-index="0">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-                   <div class="welcome-content text-center">
-                    <img class="head-photo" src="assets/meandrocks.JPG">
+              <div class="welcome-content text-center">
                     <h1> Stephanie Landgraf</h1>
                     <h2>Fullstack Software Developer</h2>
                     <p>To know more about me, please visit my profiles below:</p>
-               <p>
+              </div>
+               <p class="sm-buttons">
                  <a href="https://www.linkedin.com/in/stlandgraf/" target="_blank" class="btn btn-primary social-button"><i class="fa fa-linkedin"></i> Linkedin</a>
-                 <a href="https://github.com/steppinonland" target="_blank" class="btn btn-primary social-button"><i class="fa fa-github"></i> Github</a>
-                 <a href="https://stackoverflow.com/users/13771890/stephanie-landgraf" target="_blank" class="btn btn-primary social-button"><i class="fa fa-stack-overflow"></i> Stack Overflow</a>
+                 <a href="https://github.com/steppinonland" target="_blank" class="btn btn-dark social-button"><i class="fa fa-github"></i> Github</a>
+                 <a href="https://stackoverflow.com/users/13771890/stephanie-landgraf" target="_blank" class="btn btn-secondary social-button"><i class="fa fa-stack-overflow"></i> Stack Overflow</a>
                </p>
         </div>
       </div>
@@ -49,7 +59,6 @@
         <hr class="hr-line1">
       </div>
     </div>
-  </div>
 </section>
 <section class="services">
   <div class="container">
@@ -117,6 +126,11 @@
           <div class="progress">
             <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
               Node.js
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+              MySQL
             </div>
           </div>
         </div>
@@ -273,5 +287,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+    <script src="script.js"></script>
+
+  </body>
 </html>      

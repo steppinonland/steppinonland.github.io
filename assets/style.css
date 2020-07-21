@@ -1,7 +1,7 @@
 /* Google Fonts -  Titillium Web */
 @import url(https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap);
 
-body {
+body .jumbotron {
   color: #000000;
   font-family: 'Staatliches', cursive;
   background: linear-gradient(90deg, rgba(234,255,255,1) 0%, rgba(223,220,236,1) 50%, rgba(245,237,241,1) 100%);
@@ -24,8 +24,7 @@ body {
   cursor: pointer;
 }
 .head-photo{
-    height: 200px;
-    width: 200px;
+    width: 350px;
     border-radius: 6%;
 }
 
@@ -37,18 +36,10 @@ body {
     background: transparent;
 }
 
-.welcome, .profile, .resume, .portfolio, .contact {
-  padding-top: 50px;
-}
-
-.welcome {
-  padding-top: 100px !important;
-  padding-bottom: 20px;
-}
-
 .welcome-content h1 {
   font-weight: 900;
   font-size: 56px;
+  padding: 7%;
 }
 
 .welcome-content h2 {
@@ -67,8 +58,12 @@ body {
   color: #000000;
 }
 
+.sm-buttons{
+  display: flex;
+  justify-content: center;
+}
 .social-button {
-  background-color: #e7e7e7;
+  background-color: linear-gradient(0deg, rgba(51,65,130,0.5816701680672269) 27%, rgba(48,86,184,0.5228466386554622) 66%);;
   border: 1px solid #696969;
   padding-left: 20px !important;
   padding-right: 20px !important;
@@ -95,6 +90,7 @@ h3.head-bar i {
     font-family: 'Lato', sans-serif;
     height: 2em;
     margin: 3%;
+    border-style: groove;
 }
 
 hr.hr-line1 {
@@ -190,4 +186,38 @@ article.work {
 p{
     font-family: 'Lato', sans-serif;
     padding: 3px;
+}
+* {box-sizing: border-box;}
+.mySlides {
+  display: flex;
+  align-items: center;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.5s;
+  animation-name: fade;
+  animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.text {
+  font-size: xx-small;
 }
