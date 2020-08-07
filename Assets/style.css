@@ -3,7 +3,7 @@
 
 body .jumbotron {
   color: #ffffff;
-  background: linear-gradient(90deg, rgba(37,56,78,1) 23%, rgba(10,71,78,1) 87%);
+  background: radial-gradient(circle, rgba(0,35,126,1) 0%, rgba(34,34,34,1) 100%);
 }
 
 .navbar-default {
@@ -40,6 +40,7 @@ body .jumbotron {
   font-size: 7em;
   padding: 7%;
   font-family: 'Staatliches', cursive;
+  letter-spacing: .15em;
 }
 
 .welcome-content h2 {
@@ -57,6 +58,10 @@ body .jumbotron {
   padding-left: 5px;
   padding-right: 5px;
   color: #ffffff;
+}
+
+h1, h3, h5{
+  font-family: 'Staatliches', cursive;
 }
 
 .sm-buttons{
@@ -86,9 +91,11 @@ h3.head-bar {
 }
 .progress{
     font-family: 'Lato', sans-serif;
-    height: 2em;
-    margin: 3%;
-    border-style: groove;
+    font-size: 1.5em;
+    height: 3em;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
 }
 
 hr.hr-line1 {
@@ -179,8 +186,7 @@ article.work {
 }
 
 .thumbnail-button {
-  background-color: #ffffff;
-  border: 1px solid #efefef;
+  border: 1px solid;
 }
 
 .contact {
@@ -230,14 +236,14 @@ img {vertical-align: middle;}
   padding: 5%;
   font-family: 'Staatliches', cursive;
 }
-@import url(https://fonts.googleapis.com/css?family=Lato:600);
 
-intro-container {
+.intro-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 75vh;
   background: #222;
+  font-family: 'Staatliches', cursive;
 }
 
 .rotating-text {
