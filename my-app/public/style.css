@@ -19,8 +19,12 @@ body .jumbotron {
     padding: 4%;
 }
 
-.navbar-default ul li a {
+.nav-tabs {
   cursor: pointer;
+  padding-top: 2%;
+}
+.nav-item {
+  font-family: 'Staatliches', cursive;
 }
 .head-photo{
     width: 350px;
@@ -244,6 +248,9 @@ img {vertical-align: middle;}
   height: 75vh;
   background: #222;
   font-family: 'Staatliches', cursive;
+}
+.space {
+  padding-left: 3%;
 }
 
 .rotating-text {
